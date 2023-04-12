@@ -23,6 +23,17 @@ nlp("I have spring mix, chicken breast, chili, and hamburger meat").ents
 
 ```
 
+## Model Hyperparameters 
+* Epochs: 10
+* Batch Size: 4-32
+* Optimizer: Adam
+* lr = 5e-03
+* drop_rate = 0.5
+
+## Model Performance
+![alt text](https://github.com/randymi01/food_ner/blob/main/training_loss.png?raw=true)
+![alt text](https://github.com/randymi01/food_ner/blob/main/validation_loss.png?raw=true)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
